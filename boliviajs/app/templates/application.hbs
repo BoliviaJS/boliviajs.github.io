@@ -1,0 +1,30 @@
+<header class="app-bar promote-layer">
+  <div class="app-bar-container">
+    <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
+    <h1 class="logo">{{#linkTo 'index'}}<strong>Bolivia</strong>JS{{/linkTo}}</h1>
+    <section class="app-bar-actions">
+    <!-- Put App Bar Buttons Here -->
+    <!-- e.g <button><i class="icon icon-star"></i></button> -->
+    </section>
+  </div>
+</header>
+
+
+<nav class="navdrawer-container promote-layer">
+  <h4>Navigation</h4>
+  <ul>
+    <li>{{#linkTo 'events' }}Events{{/linkTo}}</li>
+    <li>{{#linkTo 'blogs' }}Blogs{{/linkTo}}</li>
+    <li>{{#linkTo 'members' }}Members{{/linkTo}}</li>
+  </ul>
+</nav>
+
+
+{{outlet}}
+
+
+<footer id="gc-footer">
+  <div class="container">
+    <p><a href="#">Back to top</a></p>
+  </div>
+</footer>
